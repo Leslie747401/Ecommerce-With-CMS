@@ -30,6 +30,7 @@ export default function Footer() {
             <p className="text-[#a9a9a9]">Tshirt</p>
             <p className="text-[#a9a9a9]">Shirt</p>
             <p className="text-[#a9a9a9]">Jacket</p>
+            <p className="text-[#a9a9a9]">Sweater</p>
           </div>
       
         </div>

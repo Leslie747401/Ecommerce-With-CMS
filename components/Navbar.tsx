@@ -1,5 +1,6 @@
 import { Menu, Search, ShoppingBagIcon } from 'lucide-react'
 import { Rubik } from "next/font/google";
+import Link from 'next/link';
 
 const brandname = Rubik({ subsets: ["latin"] });
 
@@ -15,12 +16,12 @@ export default function Navbar() {
           <p className='cursor-pointer'>Kids</p>
         </div>
 
-        <p className={`${brandname.className} text-4xl font-extrabold`}>TULOS</p>
+        <Link href={'/'}><p className={`${brandname.className} mobile:text-5xl max-mobile:text-4xl font-extrabold`}>TULOS</p></Link>
 
         <div className='flex gap-8'>
           <Search/>
-          <ShoppingBagIcon/>
-          <p className='font-[500] cursor-pointer'>Login</p>
+          <Link href={'/Cart'}><ShoppingBagIcon/></Link>
+          <Link href={'/Login'}><p className='font-[500] cursor-pointer'>Login</p></Link>
         </div>
 
       </div>
