@@ -6,7 +6,6 @@ import NewCollection from "@/components/NewCollection";
 import PromotionalBanner from "@/components/PromotionalBanner";
 import TermsAndConditions from "@/components/TermsAndConditions";
 
-PromotionalBanner
 export default function Home() {
   return (
     <div>

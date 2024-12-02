@@ -39,7 +39,7 @@ export default function NewCollection() {
                     <div className="flex justify-between">
                         <div className="flex flex-col gap-0.5">
                             <p className={`${RobotoFont.className} text-xl`}>Striped Textured Shirt</p>
-                            <p className={`text-[#b8b8b8]`}>Men's Shirt</p>
+                            <p className={`text-[#b8b8b8]`}>Men&#39;s Shirt</p>
                         </div>
                         <p className={`${RubikFont.className} text-xl`}>$ 40.00</p>
                     </div>
@@ -62,7 +62,7 @@ export default function NewCollection() {
                     <div className="flex justify-between">
                         <div className="flex flex-col gap-0.5">
                             <p className={`${RobotoFont.className} text-xl`}>Purl Knit Pool Shirt</p>
-                            <p className={`text-[#b8b8b8]`}>Men's Shirt</p>
+                            <p className={`text-[#b8b8b8]`}>Men&#39;s Shirt</p>
                         </div>
                         <p className={`${RubikFont.className} text-xl`}>$ 45.00</p>
                     </div>
@@ -85,7 +85,7 @@ export default function NewCollection() {
                     <div className="flex justify-between">
                         <div className="flex flex-col gap-0.5">
                             <p className={`${RobotoFont.className} text-xl`}>Quarter-Zip Sweatshirt</p>
-                            <p className={`text-[#b8b8b8]`}>Men's Shirt</p>
+                            <p className={`text-[#b8b8b8]`}>Men&#39;s Shirt</p>
                         </div>
                         <p className={`${RubikFont.className} text-xl`}>$ 35.00</p>
                     </div>
@@ -112,7 +112,7 @@ export default function NewCollection() {
                     <div className="flex justify-between">
                         <div className="flex flex-col gap-0.5">
                             <p className={`${RobotoFont.className} text-xl`}>Faux Shearling Overshirt</p>
-                            <p className={`text-[#b8b8b8]`}>Men's Shirt</p>
+                            <p className={`text-[#b8b8b8]`}>Men&#39;s Shirt</p>
                         </div>
                         <p className={`${RubikFont.className} text-xl`}>$ 30.00</p>
                     </div>
@@ -135,7 +135,7 @@ export default function NewCollection() {
                     <div className="flex justify-between">
                         <div className="flex flex-col gap-0.5">
                             <p className={`${RobotoFont.className} text-xl`}>Textured Cable Knit Sweater</p>
-                            <p className={`text-[#b8b8b8]`}>Men's Shirt</p>
+                            <p className={`text-[#b8b8b8]`}>Men&#39;s Shirt</p>
                         </div>
                         <p className={`${RubikFont.className} text-xl`}>$ 60.00</p>
                     </div>
@@ -158,7 +158,7 @@ export default function NewCollection() {
                     <div className="flex justify-between">
                         <div className="flex flex-col gap-0.5">
                             <p className={`${RobotoFont.className} text-xl`}>Abstract Print Shirt</p>
-                            <p className={`text-[#b8b8b8]`}>Men's Shirt</p>
+                            <p className={`text-[#b8b8b8]`}>Men&#39;s Shirt</p>
                         </div>
                         <p className={`${RubikFont.className} text-xl`}>$ 65.00</p>
                     </div>

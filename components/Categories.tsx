@@ -1,16 +1,9 @@
 import React from 'react'
 import Image from "next/image"
-import Cloth1 from '../public/Cloth1.jpg'
-import Cloth2 from '../public/Cloth2.jpg'
-import Cloth3 from '../public/Cloth3.jpg'
 import Man from '../public/Man.jpg'
 import Women from '../public/Women.jpg'
 import Kid from '../public/Kid.webp'
-import { Roboto, Rubik } from "next/font/google";
 import { Button } from './ui/button'
-
-const RubikFont = Rubik({ subsets: ["latin"] });
-const RobotoFont = Roboto({subsets : ["latin"], weight : "500"})
 
 export default function Categories() {
   return (
