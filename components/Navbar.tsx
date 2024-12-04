@@ -11,9 +11,9 @@ export default function Navbar() {
       <div className='flex items-center justify-between p-8 px-10 max-mobile:hidden'>
 
         <div className='flex gap-8 font-[500]'>
-          <p className='cursor-pointer'>Men</p>
-          <p className='cursor-pointer'>Women</p>
-          <p className='cursor-pointer'>Kids</p>
+          <Link href={'/man'}><p className='cursor-pointer'>Men</p></Link>
+          <Link href={'/woman'}><p className='cursor-pointer'>Women</p></Link>
+          <Link href={'/kids'}><p className='cursor-pointer'>Kids</p></Link>
         </div>
 
         <Link href={'/'}><p className={`${brandname.className} mobile:text-5xl max-mobile:text-4xl font-extrabold`}>TULOS</p></Link>
@@ -29,11 +29,11 @@ export default function Navbar() {
       {/* Mobile and tablet */}
       <div className='flex items-center justify-between py-6 px-5 mobile:hidden'>
 
-        <p className={`${brandname.className} text-4xl font-bold`}>TULOS</p>
+        <Link href={'/'}><p className={`${brandname.className} text-4xl font-bold`}>TULOS</p></Link>
 
         <div className='flex gap-8'>
           <Search/>
-          <ShoppingBagIcon/>
+          <Link href={'/Cart'}><ShoppingBagIcon/></Link>
           <Menu/>
         </div>
 

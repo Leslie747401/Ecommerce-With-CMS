@@ -4,6 +4,7 @@ import Man from '../public/Man.jpg'
 import Women from '../public/Women.jpg'
 import Kid from '../public/Kid.webp'
 import { Button } from './ui/button'
+import Link from 'next/link'
 
 export default function Categories() {
   return (
@@ -17,66 +18,66 @@ export default function Categories() {
         <div className='w-full flex flex-col gap-4'>
 
             <div className='w-full flex max-mobile:flex-col justify-center gap-4'>
+                    
+                    <Link href={'/man'} className="w-full flex flex-col gap-3 relative">
 
-                <div className="w-full flex flex-col gap-3 relative">
+                        <Image
+                            src={Man}
+                            alt="Black tshirt"
+                            width={1600}
+                            height={800}
+                            priority
+                            className="w-full h-[450px] max-mobile:h-[380px] object-cover rounded-xl"
+                            sizes="(min-width: 1280px) 1600px, (min-width: 768px) 100vw, 100vw"
+                            quality={100}
+                        />
 
-                    <Image
-                        src={Man}
-                        alt="Black tshirt"
-                        width={1600}
-                        height={800}
-                        priority
-                        className="w-full h-[450px] max-mobile:h-[380px] object-cover rounded-xl"
-                        sizes="(min-width: 1280px) 1600px, (min-width: 768px) 100vw, 100vw"
-                        quality={100}
-                    />
+                        <div className='absolute bottom-0 flex flex-col gap-5 max-mobile:p-6 mobile:p-8 items-start'>
+                            <p className='text-5xl text-white font-bold'>MAN</p>
+                            <Button className='rounded-full bg-white text-black py-6 px-12 hover:bg-white'>See Details</Button>
+                        </div>
 
-                    <div className='absolute bottom-0 flex flex-col gap-5 max-mobile:p-6 mobile:p-8 items-start'>
-                        <p className='text-5xl text-white font-bold'>MAN</p>
-                        <Button className='rounded-full bg-white text-black py-6 px-12 hover:bg-white'>See Details</Button>
-                    </div>
+                    </Link>
 
-                </div>
+                    <Link href={'/woman'} className="w-full flex flex-col gap-3 relative">
 
-                <div className="w-full flex flex-col gap-3 relative">
+                        <Image
+                            src={Women}
+                            alt="Black tshirt"
+                            width={1600}
+                            height={800}
+                            priority
+                            className="w-full h-[450px] max-mobile:h-[380px] object-cover rounded-xl"
+                            sizes="(min-width: 1280px) 1600px, (min-width: 768px) 100vw, 100vw"
+                            quality={100}
+                        />
 
-                    <Image
-                        src={Women}
-                        alt="Black tshirt"
-                        width={1600}
-                        height={800}
-                        priority
-                        className="w-full h-[450px] max-mobile:h-[380px] object-cover rounded-xl"
-                        sizes="(min-width: 1280px) 1600px, (min-width: 768px) 100vw, 100vw"
-                        quality={100}
-                    />
+                        <div className='absolute bottom-0 flex flex-col gap-5 max-mobile:p-6 mobile:p-8 items-start'>
+                            <p className='text-5xl text-white font-bold'>WOMAN</p>
+                            <Button className='rounded-full bg-white text-black py-6 px-12 hover:bg-white'>See Details</Button>
+                        </div>
 
-                    <div className='absolute bottom-0 flex flex-col gap-5 max-mobile:p-6 mobile:p-8 items-start'>
-                        <p className='text-5xl text-white font-bold'>WOMAN</p>
-                        <Button className='rounded-full bg-white text-black py-6 px-12 hover:bg-white'>See Details</Button>
-                    </div>
+                    </Link>
 
-                </div>
+                    <Link href={'/kids'} className="w-full flex flex-col gap-3 relative">
 
-                <div className="w-full flex flex-col gap-3 relative">
+                        <Image
+                            src={Kid}
+                            alt="Black tshirt"
+                            width={1600}
+                            height={800}
+                            priority
+                            className="w-full h-[450px] max-mobile:h-[380px] object-cover rounded-xl"
+                            sizes="(min-width: 1280px) 1600px, (min-width: 768px) 100vw, 100vw"
+                            quality={100}
+                        />
 
-                    <Image
-                        src={Kid}
-                        alt="Black tshirt"
-                        width={1600}
-                        height={800}
-                        priority
-                        className="w-full h-[450px] max-mobile:h-[380px] object-cover rounded-xl"
-                        sizes="(min-width: 1280px) 1600px, (min-width: 768px) 100vw, 100vw"
-                        quality={100}
-                    />
+                        <div className='absolute bottom-0 flex flex-col gap-5 max-mobile:p-6 mobile:p-8 items-start'>
+                            <p className='text-5xl text-white font-bold'>KIDS</p>
+                            <Button className='rounded-full bg-white text-black py-6 px-12 hover:bg-white'>See Details</Button>
+                        </div>
 
-                    <div className='absolute bottom-0 flex flex-col gap-5 max-mobile:p-6 mobile:p-8 items-start'>
-                        <p className='text-5xl text-white font-bold'>KIDS</p>
-                        <Button className='rounded-full bg-white text-black py-6 px-12 hover:bg-white'>See Details</Button>
-                    </div>
-
-                </div>
+                    </Link>
 
             </div>
 

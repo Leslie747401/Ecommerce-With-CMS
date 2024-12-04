@@ -30,7 +30,7 @@ export default function page() {
 
                 <div className="flex flex-col gap-3 justify-start items-center mb-12">
 
-                    <p className="mobile:text-4xl max-mobile:text-3xl font-semibold">WELCOME BACK!</p>
+                    <p className="mobile:text-4xl max-mobile:text-3xl font-semibold">WELCOME BACK</p>
                     <p className="text-[#b5b5b5] mobile:text-base max-mobile:text-sm">Access your personal account by logging in</p>
                 
                 </div>

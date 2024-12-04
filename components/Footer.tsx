@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button } from "./ui/button";
 
 
@@ -40,9 +41,9 @@ export default function Footer() {
           <p className="text-xl font-semibold">Categories</p>
 
           <div className="flex flex-col gap-1 font-[500]">
-            <p className="text-[#a9a9a9]">Man</p>
-            <p className="text-[#a9a9a9]">Women</p>
-            <p className="text-[#a9a9a9]">Kids</p>
+            <Link href={'/man'}><p className="text-[#a9a9a9]">Man</p></Link>
+            <Link href={'/woman'}><p className="text-[#a9a9a9]">Women</p></Link>
+            <Link href={'/kids'}><p className="text-[#a9a9a9]">Kids</p></Link>
           </div>
       
         </div>
