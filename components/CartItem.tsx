@@ -1,6 +1,6 @@
 import Image, { StaticImageData } from "next/image"
 import { Roboto, Rubik } from "next/font/google";
-import { CircleMinus, CirclePlus, Heart, Trash } from "lucide-react";
+import { CircleMinus, CirclePlus, Heart, Trash, Trash2 } from "lucide-react";
 
 const RubikFont = Rubik({ subsets: ["latin"] });
 const RobotoFont = Roboto({subsets : ["latin"], weight : "500"})
@@ -38,7 +38,7 @@ export default function CartItem(props : {Name : string, productImage : StaticIm
                 
                 <div className="flex gap-5">
                     <Heart/>
-                    <Trash/>
+                    <Trash2/>
                 </div>
 
                 <div className="flex gap-5">

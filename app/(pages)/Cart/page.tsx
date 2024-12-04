@@ -160,7 +160,7 @@ export default function Page() {
 
           <div className='mobile:w-[36%] max-mobile:w-full h-fit flex flex-col mobile:gap-10 max-mobile:gap-8'>
 
-            <p className='mobile:text-4xl max-mobile:text-3xl font-semibold'>Summary</p>
+            <p className='mobile:text-4xl max-mobile:text-3xl font-semibold max-mobile:mt-5'>Summary</p>
             <CartSummary/>
           
           </div>
