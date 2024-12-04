@@ -1,6 +1,6 @@
 import Image, { StaticImageData } from "next/image"
 import { Roboto, Rubik } from "next/font/google";
-import { CircleMinus, CirclePlus, Heart, Trash, Trash2 } from "lucide-react";
+import { CircleMinus, CirclePlus, Heart, Trash2 } from "lucide-react";
 
 const RubikFont = Rubik({ subsets: ["latin"] });
 const RobotoFont = Roboto({subsets : ["latin"], weight : "500"})
