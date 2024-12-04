@@ -4,10 +4,7 @@ import Navbar from '@/components/Navbar'
 import PromotionalBanner from '@/components/PromotionalBanner'
 import Cloth4 from '../../../public/Cloth4.jpg'
 import Cloth5 from '../../../public/Cloth5.jpg'
-import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area"
-import Footer from '@/components/Footer'
-import TermsAndConditions from '@/components/TermsAndConditions'
-
+import { ScrollArea } from "@/components/ui/scroll-area"
 
 export default function Page() {
   return (

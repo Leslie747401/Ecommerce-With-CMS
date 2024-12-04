@@ -1,10 +1,9 @@
 import { CircleHelp } from 'lucide-react'
 import React from 'react'
-import { Roboto, Rubik } from "next/font/google";
+import { Rubik } from "next/font/google";
 import { Button } from './ui/button';
 
 const RubikFont = Rubik({ subsets: ["latin"] });
-const RobotoFont = Roboto({subsets : ["latin"], weight : "500"})
 
 export default function CartSummary() {
   return (

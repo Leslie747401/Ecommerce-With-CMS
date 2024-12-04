@@ -1,12 +1,11 @@
 import Image, { StaticImageData } from "next/image"
-import Cloth4 from '../public/Cloth4.jpg'
 import { Roboto, Rubik } from "next/font/google";
 import { CircleMinus, CirclePlus, Heart, Trash } from "lucide-react";
 
 const RubikFont = Rubik({ subsets: ["latin"] });
 const RobotoFont = Roboto({subsets : ["latin"], weight : "500"})
 
-export default function CartItem(props : {Name : String, productImage : StaticImageData, size : string, color : string, price : Number}) {
+export default function CartItem(props : {Name : string, productImage : StaticImageData, size : string, color : string, price : number}) {
     return (
     
     <div className="flex mobile:justify-between max-mobile:gap-5 border-b pb-6 pt-6">
