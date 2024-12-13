@@ -125,16 +125,16 @@ export default function page() {
             
             </div>
             
-            <div className='flex gap-5 items-center'>
+            <div className='flex flex-wrap gap-3 items-center'>
               
-              <p className='text-xl'>Sizes</p>
+              <p className='text-xl pr-2'>Sizes</p>
               
-              <div className='flex flex-wrap gap-3'>
+              {/* <div className='flex flex-wrap gap-3'> */}
                 <p className={`font-medium px-8 max-mobile:px-6 py-3 max-mobile:py-2 border rounded-full w-fit`}>S</p>
                 <p className={`font-medium px-8 max-mobile:px-6 py-3 max-mobile:py-2 border rounded-full w-fit`}>M</p>
                 <p className={`font-medium px-8 max-mobile:px-6 py-3 max-mobile:py-2 border rounded-full w-fit`}>L</p>
                 <p className={`font-medium px-8 max-mobile:px-6 py-3 max-mobile:py-2 border rounded-full w-fit`}>XL</p>
-              </div>
+              {/* </div> */}
             
             </div>
           
