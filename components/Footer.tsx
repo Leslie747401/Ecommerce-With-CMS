@@ -1,9 +1,7 @@
 import Link from "next/link";
 import { Button } from "./ui/button";
 
-import { Roboto, Rubik } from "next/font/google";
-
-const RubikFont = Rubik({ subsets: ["latin"] });
+import { Roboto} from "next/font/google";
 const RobotoFont = Roboto({subsets : ["latin"], weight : "500"})
 
 
