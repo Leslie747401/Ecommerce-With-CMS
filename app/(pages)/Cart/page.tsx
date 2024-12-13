@@ -2,8 +2,8 @@ import CartItem from '@/components/CartItem'
 import CartSummary from '@/components/CartSummary'
 import Navbar from '@/components/Navbar'
 import PromotionalBanner from '@/components/PromotionalBanner'
-import Cloth4 from '../../../public/Cloth4.jpg'
-import Cloth5 from '../../../public/Cloth5.jpg'
+import Cloth4 from '../../../public/Cloth4.png'
+import Cloth5 from '../../../public/Cloth5.png'
 import { ScrollArea } from "@/components/ui/scroll-area"
 
 export default function Page() {

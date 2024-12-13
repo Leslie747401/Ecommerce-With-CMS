@@ -1,10 +1,10 @@
 import Image from "next/image"
-import Cloth1 from '../public/Cloth1.jpg'
-import Cloth2 from '../public/Cloth2.jpg'
-import Cloth3 from '../public/Cloth3.jpg'
-import Cloth4 from '../public/Cloth4.jpg'
-import Cloth5 from '../public/Cloth5.jpg'
-import Cloth6 from '../public/Cloth6.jpg'
+import Cloth1 from '../public/Cloth1.png'
+import Cloth2 from '../public/Cloth2.png'
+import Cloth3 from '../public/Cloth3.png'
+import Cloth4 from '../public/Cloth4.png'
+import Cloth5 from '../public/Cloth5.png'
+import Cloth6 from '../public/Cloth6.png'
 import { Roboto, Rubik } from "next/font/google";
 
 const RubikFont = Rubik({ subsets: ["latin"] });
@@ -31,7 +31,7 @@ export default function NewCollection() {
                         width={1600}
                         height={800}
                         priority
-                        className="w-full h-[450px] max-mobile:h-[380px] object-cover rounded-xl"
+                        className="w-full h-[450px] max-mobile:h-[380px] object-cover rounded-xl bg-[#F2F2F2]"
                         sizes="(min-width: 1280px) 1600px, (min-width: 768px) 100vw, 100vw"
                         quality={100}
                     />
@@ -54,7 +54,7 @@ export default function NewCollection() {
                         width={1600}
                         height={800}
                         priority
-                        className="w-full h-[450px] max-mobile:h-[380px] object-cover rounded-xl"
+                        className="w-full h-[450px] max-mobile:h-[380px] object-cover rounded-xl bg-[#F2F2F2]"
                         sizes="(min-width: 1280px) 1600px, (min-width: 768px) 100vw, 100vw"
                         quality={100}
                     />
@@ -77,7 +77,7 @@ export default function NewCollection() {
                         width={1600}
                         height={800}
                         priority
-                        className="w-full h-[450px] max-mobile:h-[380px] object-cover rounded-xl"
+                        className="w-full h-[450px] max-mobile:h-[380px] object-cover rounded-xl bg-[#F2F2F2]"
                         sizes="(min-width: 1280px) 1600px, (min-width: 768px) 100vw, 100vw"
                         quality={100}
                     />
@@ -104,7 +104,7 @@ export default function NewCollection() {
                         width={1600}
                         height={800}
                         priority
-                        className="w-full h-[450px] max-mobile:h-[380px] object-cover rounded-xl"
+                        className="w-full h-[450px] max-mobile:h-[380px] object-cover rounded-xl bg-[#F2F2F2]"
                         sizes="(min-width: 1280px) 1600px, (min-width: 768px) 100vw, 100vw"
                         quality={100}
                     />
@@ -127,7 +127,7 @@ export default function NewCollection() {
                         width={1600}
                         height={800}
                         priority
-                        className="w-full h-[450px] max-mobile:h-[380px] object-cover rounded-xl"
+                        className="w-full h-[450px] max-mobile:h-[380px] object-cover rounded-xl bg-[#F2F2F2]"
                         sizes="(min-width: 1280px) 1600px, (min-width: 768px) 100vw, 100vw"
                         quality={100}
                     />
@@ -150,8 +150,8 @@ export default function NewCollection() {
                         width={1600}
                         height={800}
                         priority
-                        className="w-full h-[450px] max-mobile:h-[380px] object-cover rounded-xl"
-                        sizes="(min-width: 1280px) 1600px, (min-width: 768px) 100vw, 100vw"
+                        className="w-full h-[450px] max-mobile:h-[380px] object-cover rounded-xl bg-[#F2F2F2]"
+                        sizes="(min-width: 1280px) 1600px, (min-width: 768px) 100vw, 100vw" 
                         quality={100}
                     />
                     

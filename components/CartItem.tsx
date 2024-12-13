@@ -15,7 +15,7 @@ export default function CartItem(props : {Name : string, productImage : StaticIm
             width={200}
             height={200}
             alt="Cart Item"
-            className="mobile:w-[220px] mobile:h-[220px] max-mobile:w-[32%] max-mobile:h-[120px] object-cover rounded-lg"
+            className="mobile:w-[220px] mobile:h-[220px] max-mobile:w-[32%] max-mobile:h-[120px] object-cover rounded-lg bg-[#F2F2F2]"
         />
 
         <div className="max-mobile:w-[60%] flex flex-col max-mobile:gap-5 justify-between">

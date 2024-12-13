@@ -1,6 +1,11 @@
 import Link from "next/link";
 import { Button } from "./ui/button";
 
+import { Roboto, Rubik } from "next/font/google";
+
+const RubikFont = Rubik({ subsets: ["latin"] });
+const RobotoFont = Roboto({subsets : ["latin"], weight : "500"})
+
 
 export default function Footer() {
   return (
@@ -24,7 +29,7 @@ export default function Footer() {
 
         <div className="flex flex-col gap-8 max-mobile:gap-4">
 
-          <p className="text-xl font-semibold">Products</p>
+          <p className={`${RobotoFont.className} text-xl font-semibold`}>Products</p>
 
           <div className="flex flex-col gap-1 font-[500]">
             <p className="text-[#a9a9a9]">Sweatshirt</p>
@@ -38,7 +43,7 @@ export default function Footer() {
 
         <div className="flex flex-col gap-8 max-mobile:gap-4">
 
-          <p className="text-xl font-semibold">Categories</p>
+          <p className={`${RobotoFont.className} text-xl font-semibold`}>Categories</p>
 
           <div className="flex flex-col gap-1 font-[500]">
             <Link href={'/man'}><p className="text-[#a9a9a9]">Man</p></Link>
@@ -50,7 +55,7 @@ export default function Footer() {
 
         <div className="flex flex-col gap-8 max-mobile:gap-4">
 
-          <p className="text-xl font-semibold">Social Media</p>
+          <p className={`${RobotoFont.className} text-xl font-semibold`}>Social Media</p>
 
           <div className="flex flex-col gap-1 font-[500]">
             <p className="text-[#a9a9a9]">Facebook</p>
