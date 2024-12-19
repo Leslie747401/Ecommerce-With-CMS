@@ -3,11 +3,6 @@ import Navbar from '@/components/Navbar'
 import PromotionalBanner from '@/components/PromotionalBanner'
 import TermsAndConditions from '@/components/TermsAndConditions';
 
-import { Roboto, Rubik } from "next/font/google";
-
-const RubikFont = Rubik({ subsets: ["latin"] });
-const RobotoFont = Roboto({subsets : ["latin"], weight : "500"})
-
 export default function page() {
   return (
     <div>
