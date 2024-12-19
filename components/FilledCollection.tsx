@@ -6,7 +6,7 @@ import { SlidersHorizontal } from 'lucide-react'
 import Cloth1 from '../public/Cloth1.png'
 import Cloth4 from '../public/Cloth4.png'
 import Cloth6 from '../public/Cloth6.png'
-import { CollectionStore } from '@/app/(pages)/(State Store)/store'
+// import { CollectionStore } from '@/app/(pages)/(State Store)/store'
 
 export default function FilledCollection() {
 
