@@ -96,7 +96,6 @@ span {
   left: 50%;
   transform-origin: 0 250px;
   text-transform: capitalize;
-  color: black;
 }
 
 @media (max-width: 500px) {

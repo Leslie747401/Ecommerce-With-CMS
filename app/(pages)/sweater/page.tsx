@@ -1,13 +1,12 @@
 import Navbar from '@/components/Navbar'
 import PromotionalBanner from '@/components/PromotionalBanner'
-import Image from 'next/image'
 import { Roboto, Rubik } from "next/font/google";
-import Cloth1 from '../../../public/Cloth1.png'
-import Cloth2 from '../../../public/Cloth2.png'
-import Cloth3 from '../../../public/Cloth3.png'
-import Cloth4 from '../../../public/Cloth4.png'
-import Cloth5 from '../../../public/Cloth5.png'
-import Cloth6 from '../../../public/Cloth6.png'
+import Cloth1 from '../../../public/Women1.png'
+import Cloth2 from '../../../public/Women2.png'
+import Cloth3 from '../../../public/Women3.png'
+import Cloth4 from '../../../public/Women4.png'
+import Cloth5 from '../../../public/Women5.png'
+import Cloth6 from '../../../public/Women6.png'
 import Footer from '@/components/Footer';
 import TermsAndConditions from '@/components/TermsAndConditions';
 import { ScrollArea, ScrollBar } from '@/components/ui/scroll-area';
@@ -28,16 +27,14 @@ export default function page() {
 
         <div className='flex flex-col gap-8 items-center max-mobile:px-5 mobile:px-10'>
 
-          <p className='text-5xl font-medium max-laptop:text-4xl max-mobile:text-3xl pt-8 max-mobile:text-center'>MEN&#39;S CLOTHING COLLECTION</p>
+          <p className='text-5xl font-medium max-laptop:text-4xl max-mobile:text-3xl pt-8 max-mobile:text-center'>SWEATER COLLECTION</p>
         
             <ScrollArea className='w-full'>
 
                 <div className='w-full flex justify-center gap-5 mb-4'>
-                  <Button variant={'outline'} className='px-6 py-6 rounded-full border border-[#dedede]'>Sweatshirt</Button>
-                  <Button variant={'outline'} className='px-6 py-6 rounded-full border border-[#dedede]'>Sweater</Button>
-                  <Button variant={'outline'} className='px-6 py-6 rounded-full border border-[#dedede]'>Jacket</Button>
-                  <Button variant={'outline'} className='px-6 py-6 rounded-full border border-[#dedede]'>Tshirt</Button>
-                  <Button variant={'outline'} className='px-6 py-6 rounded-full border border-[#dedede]'>Shirt</Button>
+                    <Button variant={'outline'} className='px-6 py-6 rounded-full border border-[#dedede]'>Men</Button>
+                    <Button variant={'outline'} className='px-6 py-6 rounded-full border border-[#dedede]'>Women</Button>
+                    <Button variant={'outline'} className='px-6 py-6 rounded-full border border-[#dedede]'>Kids</Button>
                 </div>
 
                 <ScrollBar orientation='horizontal'/>
@@ -51,47 +48,46 @@ export default function page() {
             <div className='w-full flex flex-wrap max-mobile:flex-col justify-center gap-4'>
 
                 <DisplayItem
-                  Name={"Striped Textured Shirt"}
+                  Name={"Short Boucle Jacket"}
                   productImage={Cloth1}
                   price={30.00}
-                  type={"Men's Shirt"}                     
+                  type={"Women's Jacket"}                      
                 />
 
                 <DisplayItem
-                  Name={"Purl Knit Pool Shirt"}
+                  Name={"Varsity Tshirt"}
                   productImage={Cloth2}
                   price={45.00}
-                  type={"Men's Shirt"}                         
+                  type={"Women's Tshirt"}                     
                 />
 
                 <DisplayItem
-                  Name={"Quarter-Zip Sweatshirt"}
+                  Name={"Zip-Up Gilet Tshirt"}
                   productImage={Cloth3}
                   price={35.00}
-                  type={"Men's Sweatshirt"}                  
+                  type={"Women's Tshirt"}                  
                 />
 
                 <DisplayItem
-                  Name={"Faux Shearling Overshirt"}
+                  Name={"Leather Bomber Jacket"}
                   productImage={Cloth4}
                   price={30.00}
-                  type={"Men's Sweatshirt"}                    
+                  type={"Women's Jacket"}                  
                 />
 
                 <DisplayItem
                   Name={"Textured Cable Knit Sweater"}
                   productImage={Cloth5}
                   price={60.00}
-                  type={"Men's Sweater"}        
+                  type={"Women's Sweater"}            
                 />
 
                 <DisplayItem
                   Name={"Abstract Print Shirt"}
                   productImage={Cloth6}
                   price={65.00}
-                  type={"Men's Shirt"}                      
+                  type={"Women's Shirt"}          
                 />
-
 
             </div>
 

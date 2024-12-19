@@ -30,11 +30,11 @@ export default function Footer() {
           <p className={`${RobotoFont.className} text-xl font-semibold`}>Products</p>
 
           <div className="flex flex-col gap-1 font-[500]">
-            <p className="text-[#a9a9a9]">Sweatshirt</p>
-            <p className="text-[#a9a9a9]">Tshirt</p>
-            <p className="text-[#a9a9a9]">Shirt</p>
-            <p className="text-[#a9a9a9]">Jacket</p>
-            <p className="text-[#a9a9a9]">Sweater</p>
+            <Link href={'/sweatshirt'}><p className="text-[#a9a9a9] hover:text-black transition-all duration-300">Sweatshirt</p></Link>
+            <Link href={'/tshirt'}><p className="text-[#a9a9a9] hover:text-black transition-all duration-300">Tshirt</p></Link>
+            <Link href={'/shirt'}><p className="text-[#a9a9a9] hover:text-black transition-all duration-300">Shirt</p></Link>
+            <Link href={'/jacket'}><p className="text-[#a9a9a9] hover:text-black transition-all duration-300">Jacket</p></Link>
+            <Link href={'/sweater'}><p className="text-[#a9a9a9] hover:text-black transition-all duration-300">Sweater</p></Link>
           </div>
       
         </div>
@@ -44,9 +44,9 @@ export default function Footer() {
           <p className={`${RobotoFont.className} text-xl font-semibold`}>Categories</p>
 
           <div className="flex flex-col gap-1 font-[500]">
-            <Link href={'/man'}><p className="text-[#a9a9a9]">Man</p></Link>
-            <Link href={'/woman'}><p className="text-[#a9a9a9]">Women</p></Link>
-            <Link href={'/kids'}><p className="text-[#a9a9a9]">Kids</p></Link>
+            <Link href={'/man'}><p className="text-[#a9a9a9] hover:text-black transition-all duration-300">Man</p></Link>
+            <Link href={'/woman'}><p className="text-[#a9a9a9] hover:text-black transition-all duration-300">Women</p></Link>
+            <Link href={'/kids'}><p className="text-[#a9a9a9] hover:text-black transition-all duration-300">Kids</p></Link>
           </div>
       
         </div>
@@ -56,9 +56,9 @@ export default function Footer() {
           <p className={`${RobotoFont.className} text-xl font-semibold`}>Social Media</p>
 
           <div className="flex flex-col gap-1 font-[500]">
-            <p className="text-[#a9a9a9]">Facebook</p>
-            <p className="text-[#a9a9a9]">Instagran</p>
-            <p className="text-[#a9a9a9]">Twitter</p>
+            <Link href={'https://www.facebook.com/souledstore/'} target="_blank"><p className="text-[#a9a9a9] hover:text-black transition-all duration-300">Facebook</p></Link>
+            <Link href={'https://www.instagram.com/TheSouledStore/'} target="_blank"><p className="text-[#a9a9a9] hover:text-black transition-all duration-300">Instagram</p></Link>
+            <Link href={'https://x.com/TheSouledStore'} target="_blank"><p className="text-[#a9a9a9] hover:text-black transition-all duration-300">Twitter</p></Link>
           </div>
       
         </div>

@@ -26,16 +26,16 @@ export default function page() {
                 quality={100}
             />
 
-            <div className="w-full flex flex-col justify-center mobile:gap-10 mobile:px-10">
+            <div className="w-full flex flex-col justify-between mobile:px-10">
 
-                <div className="flex flex-col gap-3 justify-start items-center mb-12">
+                <div className="flex flex-col gap-3 justify-start items-center max-mobile:mb-12">
 
                     <p className="mobile:text-4xl max-mobile:text-3xl font-semibold">WELCOME BACK</p>
                     <p className="text-[#b5b5b5] mobile:text-base max-mobile:text-sm">Access your personal account by logging in</p>
                 
                 </div>
 
-                <div>
+                <div className="max-mobile:mb-8">
 
                     <div className="flex flex-col gap-2 mb-8">
                         <p className="font-medium">Email Address</p>
@@ -47,7 +47,7 @@ export default function page() {
                         <input type="text" className="max-mobile:w-full border rounded-full mobile:px-12 mobile:pl-6 mobile:py-3 max-mobile:px-8 max-mobile:pl-6 max-mobile:py-3 outline-none" placeholder="Your password"/>
                     </div>
 
-                    <p className="text-right font-medium text-sm mb-8">Forgot Password</p>
+                    <p className="text-right font-medium text-sm mb-8 cursor-pointer">Forgot Password</p>
 
                     <Button className="w-full rounded-full mb-4 py-6">Log in</Button>
 
@@ -61,7 +61,11 @@ export default function page() {
                         <p>Sign in with Google</p>
                     </Button>
 
+                </div>
 
+                <div className="flex gap-2 justify-center">
+                    <p className="text-[#bababa]">Don't have an account?</p>
+                    <p className="text-blue-500 cursor-pointer">Sign up</p>
                 </div>
             
             </div>

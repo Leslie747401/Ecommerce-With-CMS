@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function TermsAndConditions() {
@@ -7,9 +8,9 @@ export default function TermsAndConditions() {
         <p className='text-white'>&copy; 2023 Tulos Production</p>
 
         <div className='flex max-mobile:flex-col max-mobile:gap-3 mobile:gap-12'>
-            <p className='text-[#989898]'>Terms and Conditions</p>
-            <p className='text-[#989898]'>Privacy Policy</p>
-            <p className='text-[#989898]'>Cookies Policy</p>
+          <Link href={'/terms-and-conditions'}><p className='text-[#989898] cursor-pointer hover:text-white transition-all duration-300'>Terms and Conditions</p></Link>
+          <Link href={'/privacy-policy'}><p className='text-[#989898] cursor-pointer hover:text-white transition-all duration-300'>Privacy Policy</p></Link>
+          <Link href={'/cookie-policy'}><p className='text-[#989898] cursor-pointer hover:text-white transition-all duration-300'>Cookies Policy</p></Link>
         </div>
 
     </div>

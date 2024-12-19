@@ -8,11 +8,14 @@ import Link from 'next/link'
 
 export default function Categories() {
   return (
-    <div className='w-full flex flex-col justify-center items-center gap-8 max-mobile:px-5 mobile:px-10 max-mobile:mb-20 mobile:mb-40'>
+    <div className='w-full flex flex-col justify-center items-center max-mobile:gap-8 mobile:gap-14 max-mobile:px-5 mobile:px-10 max-mobile:mb-20 mobile:mb-40'>
 
         <div className='flex flex-col gap-5 max-mobile:gap-2 items-center'>
             <p className='text-5xl font-bold max-laptop:text-4xl max-mobile:text-3xl'>CATEGORIES</p>
-            <p className='text-[#a9a9a9] text-center max-mobile:text-sm'>Explore our diverse range, featuring styles crafted for Men, Women, and Kids. <br className="hidden mobile:block"/> Find something special for everyone.</p>
+            {/* For laptop */}
+            <p className='hidden text-[#a9a9a9] text-center max-mobile:text-sm mobile:block'>Explore our diverse range, featuring styles crafted for Men, Women, and Kids. <br className="hidden mobile:block"/> Find something special for everyone.</p>
+            {/* For Mobile */}
+            <p className='hidden text-[#a9a9a9] text-center max-mobile:text-sm max-mobile:block'>Explore styles for Men, Women, and Kids.<br className="hidden mobile:block"/> Find something special for everyone.</p>
         </div>
 
         <div className='w-full flex flex-col gap-4'>

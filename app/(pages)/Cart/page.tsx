@@ -4,7 +4,11 @@ import Navbar from '@/components/Navbar'
 import PromotionalBanner from '@/components/PromotionalBanner'
 import Cloth4 from '../../../public/Cloth4.png'
 import Cloth5 from '../../../public/Cloth5.png'
+import Cloth6 from '../../../public/Cloth6.png'
+import Cloth3 from '../../../public/Cloth3.png'
 import { ScrollArea } from "@/components/ui/scroll-area"
+import Footer from '@/components/Footer'
+import TermsAndConditions from '@/components/TermsAndConditions'
 
 export default function Page() {
   return (
@@ -14,7 +18,7 @@ export default function Page() {
       <PromotionalBanner/>
       <Navbar/>
 
-      <div className='flex flex-col mobile:px-10 max-mobile:px-5'>
+      <div className='flex flex-col mobile:px-10 max-mobile:px-5 mobile:mb-40 max-mobile:mb-20'>
 
         <div className='flex max-mobile:flex-col-reverse justify-between'>
             
@@ -38,51 +42,19 @@ export default function Page() {
                   />
 
                   <CartItem
-                    Name={"Faux Shearling Overshirt"}
-                    productImage={Cloth5}
+                    Name={"Abstract Print Shirt"}
+                    productImage={Cloth6}
+                    size={"L"}
+                    color={"white"}
+                    price={65}
+                  />
+
+                  <CartItem
+                    Name={"Quarter-Zip Sweatshirt"}
+                    productImage={Cloth3}
                     size={"M"}
-                    color={"Grey"}
-                    price={60}
-                  />
-
-                  <CartItem
-                    Name={"Faux Shearling Overshirt"}
-                    productImage={Cloth4}
-                    size={"XL"}
-                    color={"Green"}
-                    price={30}
-                  />
-
-                  <CartItem
-                    Name={"Faux Shearling Overshirt"}
-                    productImage={Cloth5}
-                    size={"M"}
-                    color={"Grey"}
-                    price={60}
-                  />
-
-                  <CartItem
-                    Name={"Faux Shearling Overshirt"}
-                    productImage={Cloth5}
-                    size={"M"}
-                    color={"Grey"}
-                    price={60}
-                  />
-
-                  <CartItem
-                    Name={"Faux Shearling Overshirt"}
-                    productImage={Cloth4}
-                    size={"XL"}
-                    color={"Green"}
-                    price={30}
-                  />
-
-                  <CartItem
-                    Name={"Faux Shearling Overshirt"}
-                    productImage={Cloth5}
-                    size={"M"}
-                    color={"Grey"}
-                    price={60}
+                    color={"Black"}
+                    price={35}
                   />
 
                 </div>
@@ -105,51 +77,19 @@ export default function Page() {
                   />
 
                   <CartItem
-                    Name={"Faux Shearling Overshirt"}
-                    productImage={Cloth5}
+                    Name={"Abstract Print Shirt"}
+                    productImage={Cloth6}
+                    size={"L"}
+                    color={"white"}
+                    price={65}
+                  />
+
+                  <CartItem
+                    Name={"Quarter-Zip Sweatshirt"}
+                    productImage={Cloth3}
                     size={"M"}
-                    color={"Grey"}
-                    price={60}
-                  />
-
-                  <CartItem
-                    Name={"Faux Shearling Overshirt"}
-                    productImage={Cloth4}
-                    size={"XL"}
-                    color={"Green"}
-                    price={30}
-                  />
-
-                  <CartItem
-                    Name={"Faux Shearling Overshirt"}
-                    productImage={Cloth5}
-                    size={"M"}
-                    color={"Grey"}
-                    price={60}
-                  />
-
-                  <CartItem
-                    Name={"Faux Shearling Overshirt"}
-                    productImage={Cloth5}
-                    size={"M"}
-                    color={"Grey"}
-                    price={60}
-                  />
-
-                  <CartItem
-                    Name={"Faux Shearling Overshirt"}
-                    productImage={Cloth4}
-                    size={"XL"}
-                    color={"Green"}
-                    price={30}
-                  />
-
-                  <CartItem
-                    Name={"Faux Shearling Overshirt"}
-                    productImage={Cloth5}
-                    size={"M"}
-                    color={"Grey"}
-                    price={60}
+                    color={"Black"}
+                    price={35}
                   />
 
                 </div>
@@ -168,6 +108,9 @@ export default function Page() {
         </div>
 
       </div>
+
+      <Footer/>
+      <TermsAndConditions/>
 
     </div>
   )

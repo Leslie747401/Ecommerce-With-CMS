@@ -12,6 +12,7 @@ import { Button } from '@/components/ui/button'
 import Footer from '@/components/Footer'
 import TermsAndConditions from '@/components/TermsAndConditions'
 import RecommendedProducts from '@/components/RecommendedProducts'
+import { Heart } from 'lucide-react'
 
 const RubikFont = Rubik({ subsets: ["latin"] });
 const RobotoFont = Roboto({subsets : ["latin"], weight : "500"})
@@ -24,7 +25,7 @@ export default function page() {
       <PromotionalBanner/>
       <Navbar/>
 
-      <div className='w-full flex max-mobile:flex-col max-mobile:gap-8 justify-between px-10 max-mobile:px-5 mb-20'>
+      <div className='w-full flex max-mobile:flex-col max-mobile:gap-8 justify-between px-10 max-mobile:px-5 mb-20 pt-5'>
 
         <div className='mobile:w-[55%] flex justify-between max-mobile:flex-col-reverse max-mobile:gap-5'>
 
@@ -141,8 +142,23 @@ export default function page() {
           </div>
 
           <div className='flex flex-col max-mobile:gap-4 mobile:gap-5'>
+
             <Button className='py-6 rounded-full'>Buy now</Button>
-            <Button variant={"outline"} className='py-6 rounded-full border border-[#838383]'>Add to Cart</Button>
+
+            {/* Add to Cart, Add to Collection */}
+            {/* <div className='flex justify-between'> 
+              <Button variant={"outline"} className='py-6 rounded-full border border-[#838383] w-[49%]'>Add to Cart</Button>
+              <Button variant={"outline"} className='py-6 rounded-full border border-[#838383] w-[49%]'>Add to Collection</Button>
+            </div> */}
+            
+            {/* Add to Cart, Heart Icon */}
+            <div className='flex justify-between'> 
+              <Button variant={"outline"} className='py-6 rounded-full border border-[#838383] mobile:w-[89%] max-mobile:w-[84%]'>Add to Cart</Button>
+              <div className="max-mobile:w-[13%] p-3.5 flex justify-center items-center rounded-full bg-white border border-[#b6b6b6] cursor-pointer">
+                <Heart width={20} height={20}/> 
+              </div>
+            </div>
+
           </div>
 
         </div>
