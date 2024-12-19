@@ -33,11 +33,12 @@ export default function DisplayItem(props : {Name : string, productImage : Stati
             </div>
         </div>
 
-        <div className="absolute top-6 right-20">
+        {/* Add to Cart icon */}
+        {/* <div className="absolute top-6 right-20">
             <div className="p-2.5 rounded-full bg-white border cursor-pointer">
                 <ShoppingBagIcon/>
             </div>
-        </div>
+        </div> */}
 
     </div>
   )

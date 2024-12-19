@@ -6,7 +6,7 @@ const RobotoFont = Roboto({subsets : ["latin"], weight : "500"})
 
 export default function CollectionItem(props : {Name : string, productImage : StaticImageData, price : number}) {
   return (
-    <div className="w-full flex flex-col gap-3 relative">
+    <div className="mobile:w-[500px] max-mobile:w-full flex flex-col gap-3 relative">
 
         <Image
             src={props.productImage}
