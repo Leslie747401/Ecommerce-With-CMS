@@ -1,10 +1,6 @@
-import { ArrowRight, ArrowRightIcon, ShoppingBagIcon } from 'lucide-react'
-
-import { Roboto, Rubik } from "next/font/google";
+import { ShoppingBagIcon } from 'lucide-react'
 import { Button } from './ui/button';
 import Link from 'next/link';
-const RubikFont = Rubik({ subsets: ["latin"] });
-const RobotoFont = Roboto({subsets : ["latin"], weight : "500"})
 
 
 export default function EmptyCart() {
@@ -17,7 +13,7 @@ export default function EmptyCart() {
 
             <p className={`text-xl font-semibold`}>Your Cart is Empty</p>
 
-            <p className='mobile:w-[450px] max-mobile:w-[90%] text-center font-normal'>Looks like you haven't added anything to your cart yet. Start shopping and discover amazing items.</p>
+            <p className='mobile:w-[450px] max-mobile:w-[90%] text-center font-normal'>Looks like you haven&#39;t added anything to your cart yet. Start shopping and discover amazing items.</p>
 
             <Button className='py-6 px-8 rounded-full'>
                 <Link href={'/'}><p>Continue Shopping</p></Link>

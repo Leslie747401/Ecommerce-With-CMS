@@ -10,7 +10,7 @@ import { CollectionStore } from '@/app/(pages)/(State Store)/store'
 
 export default function FilledCollection() {
 
-  const Collectionitems = CollectionStore((state) => state.Collection)
+//   const Collectionitems = CollectionStore((state) => state.Collection)
 
   return (
     
