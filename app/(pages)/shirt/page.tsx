@@ -1,6 +1,5 @@
 import Navbar from '@/components/Navbar'
 import PromotionalBanner from '@/components/PromotionalBanner'
-import { Roboto, Rubik } from "next/font/google";
 import Cloth1 from '../../../public/Women1.png'
 import Cloth2 from '../../../public/Women2.png'
 import Cloth3 from '../../../public/Women3.png'
@@ -12,9 +11,6 @@ import TermsAndConditions from '@/components/TermsAndConditions';
 import { ScrollArea, ScrollBar } from '@/components/ui/scroll-area';
 import DisplayItem from '@/components/DisplayItem';
 import { Button } from '@/components/ui/button';
-
-const RubikFont = Rubik({ subsets: ["latin"] });
-const RobotoFont = Roboto({subsets : ["latin"], weight : "500"})
 
 export default function page() {
   return (

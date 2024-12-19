@@ -3,7 +3,6 @@ import CartSummary from '@/components/CartSummary'
 import Navbar from '@/components/Navbar'
 import PromotionalBanner from '@/components/PromotionalBanner'
 import Cloth4 from '../../../public/Cloth4.png'
-import Cloth5 from '../../../public/Cloth5.png'
 import Cloth6 from '../../../public/Cloth6.png'
 import Cloth3 from '../../../public/Cloth3.png'
 import { ScrollArea } from "@/components/ui/scroll-area"

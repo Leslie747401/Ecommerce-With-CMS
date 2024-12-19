@@ -1,15 +1,10 @@
-import Image from "next/image"
 import Cloth1 from '../public/Cloth1.png'
 import Cloth2 from '../public/Cloth2.png'
 import Cloth3 from '../public/Cloth3.png'
 import Cloth4 from '../public/Cloth4.png'
 import Cloth5 from '../public/Cloth5.png'
 import Cloth6 from '../public/Cloth6.png'
-import { Roboto, Rubik } from "next/font/google";
 import DisplayItem from "./DisplayItem"
-
-const RubikFont = Rubik({ subsets: ["latin"] });
-const RobotoFont = Roboto({subsets : ["latin"], weight : "500"})
 
 export default function NewCollection() {
   return (

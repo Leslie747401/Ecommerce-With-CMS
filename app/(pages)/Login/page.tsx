@@ -64,7 +64,7 @@ export default function page() {
                 </div>
 
                 <div className="flex gap-2 justify-center">
-                    <p className="text-[#bababa]">Don't have an account?</p>
+                    <p className="text-[#bababa]">Don&#39;t have an account?</p>
                     <p className="text-blue-500 cursor-pointer">Sign up</p>
                 </div>
             

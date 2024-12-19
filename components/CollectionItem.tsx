@@ -1,5 +1,4 @@
 import Image, { StaticImageData } from "next/image"
-import Cloth1 from '../public/Cloth1.jpg'
 import { Roboto, Rubik } from "next/font/google";
 import { Trash } from "lucide-react";
 const RubikFont = Rubik({ subsets: ["latin"] });

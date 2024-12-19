@@ -1,10 +1,10 @@
 import Image, { StaticImageData } from "next/image"
 import { Roboto, Rubik } from "next/font/google";
-import { Heart, ShoppingBagIcon, Trash } from "lucide-react";
+import { Heart, ShoppingBagIcon } from "lucide-react";
 const RubikFont = Rubik({ subsets: ["latin"] });
 const RobotoFont = Roboto({subsets : ["latin"], weight : "500"})
 
-export default function DisplayItem(props : {Name : string, productImage : StaticImageData, price : number, type : String}) {
+export default function DisplayItem(props : {Name : string, productImage : StaticImageData, price : number, type : string}) {
   return (
     <div className="mobile:w-[32.5%] max-mobile:w-full flex flex-col gap-3 relative">
 

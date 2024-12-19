@@ -3,9 +3,8 @@ import Navbar from '@/components/Navbar'
 import PromotionalBanner from '@/components/PromotionalBanner'
 import TermsAndConditions from '@/components/TermsAndConditions';
 
-import { Roboto, Rubik } from "next/font/google";
+import { Roboto } from "next/font/google";
 
-const RubikFont = Rubik({ subsets: ["latin"] });
 const RobotoFont = Roboto({subsets : ["latin"], weight : "500"})
 
 export default function page() {
@@ -23,7 +22,7 @@ export default function page() {
 
               <div className='flex flex-col gap-8'>
 
-                <p>Welcome to TULOS (the "Website"). We are delighted to have you here and look forward to providing you with an exceptional shopping experience. These Terms and Conditions ("Terms") are designed to establish a clear understanding between you, the user, and us, the service provider, regarding your use of our Website and the purchase of products offered through it.</p>
+                <p>Welcome to TULOS (the &#34;Website&#34;). We are delighted to have you here and look forward to providing you with an exceptional shopping experience. These Terms and Conditions (&#34;Terms&#34;) are designed to establish a clear understanding between you, the user, and us, the service provider, regarding your use of our Website and the purchase of products offered through it.</p>
 
                 <p>By accessing or using our Website, you signify your agreement to comply with and be bound by these Terms. This document outlines your rights, responsibilities, and the standards we uphold to ensure a secure and enjoyable platform for all users. Whether you are browsing, creating an account, or making a purchase, these Terms govern every aspect of your interaction with our Website.</p>
 
@@ -122,7 +121,7 @@ export default function page() {
                   <li>Returned with all original tags and packaging intact.</li>
                 </ul>
 
-                <p>Once we receive and inspect your return, refunds will be processed to the original payment method within 5 days. Exchanges for different sizes, colors, or products are subject to stock availability. Products marked as "final sale" or "non-returnable" are not eligible for return or exchange. Please contact our support team for detailed return instructions.</p>
+                <p>Once we receive and inspect your return, refunds will be processed to the original payment method within 5 days. Exchanges for different sizes, colors, or products are subject to stock availability. Products marked as &#34;final sale&#34; or &#34;non-returnable&#34; are not eligible for return or exchange. Please contact our support team for detailed return instructions.</p>
 
               </div>
 
@@ -175,7 +174,7 @@ export default function page() {
 
               <p className={`${RobotoFont.className} text-xl font-semibold`}>Changes to Terms and Conditions</p>
 
-              <p>We may update these Terms from time to time to reflect changes in our operations, legal requirements, or market conditions. The latest version will always be available on this page, with the "Effective Date" updated. Continued use of the Website after such changes constitutes your acceptance of the revised Terms.</p>
+              <p>We may update these Terms from time to time to reflect changes in our operations, legal requirements, or market conditions. The latest version will always be available on this page, with the &#34;Effective Date&#34; updated. Continued use of the Website after such changes constitutes your acceptance of the revised Terms.</p>
 
               <p className={`${RobotoFont.className} text-xl font-semibold`}>Contact Us</p>
 
