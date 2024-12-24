@@ -57,7 +57,7 @@ export default function page() {
               />
             </div>
 
-            <div className='bg-[#F2F2F2] rounded-xl'>
+            <div className='bg-[#F2F2F2] rounded-xl border-[2px] border-[#b8b8b8]'>
               <Image
                 src={Cloth1_2}
                 alt="Black tshirt"
