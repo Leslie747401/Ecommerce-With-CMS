@@ -13,6 +13,7 @@ export default function page() {
 
         <Link href={'/'}><p className={`${brandname.className} max-mobile:text-4xl mobile:text-5xl font-extrabold`}>TULOS</p></Link>
 
+
         <div className="w-full flex max-mobile:flex-col mb-8 justify-between">
 
             <Image
