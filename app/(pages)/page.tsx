@@ -13,7 +13,7 @@ export default async function Home() {
 
   const supabase = createClient();
 
-  let { data, error } = await supabase.from('product').select();
+  const { data } = await supabase.from('product').select();
   if(data){
     console.log(data);
   }
